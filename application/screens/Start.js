@@ -62,7 +62,7 @@ static navigationOptions = {
 			<Text style={{color: '#FFFFFF', fontWeight: 'bold', fontSize: 14}}>{Strings.ST26.toUpperCase()}</Text>
 			</Button>
 			<Button rounded bordered block onPress={this.register.bind(this)} style={styles.button_start}>
-			<Text style={{color: ColorsApp.PRIMARY, fontWeight: 'bold', fontSize: 14}}>{Strings.ST27.toUpperCase()}</Text>
+			<Text style={{color: ColorsApp. HOMECOL, fontWeight: 'bold', fontSize: 14}}>{Strings.ST27.toUpperCase()}</Text>
 			</Button>
 
 			</View>
