@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Fitcelerator",
+    "slug": "fitcelerator",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.2",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.company.fitcelerator",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.company.fitcelerator",
+      "versionCode": 1
+    },
+    "description": ""
+  }
+}
