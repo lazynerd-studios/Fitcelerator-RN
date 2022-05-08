@@ -82,26 +82,26 @@ export default class Home extends Component {
     </Col>
 
     <Col>
-    <TouchableOpacity onPress={this.navigateToScreen('PostsScreen')} style={styles.gridHomeCol}>
-    <Image source={require('../../assets/images/blog.png')} style={styles.gridHomeImage} resizeMode="contain"/>
-    <Text style={styles.gridHomeText}>{Strings.ST4.toUpperCase()}</Text>
-    </TouchableOpacity>
-    </Col>
-</Row>
-
-<Row>
-
-    <Col>
     <TouchableOpacity style={styles.gridHomeCol} onPress={this.navigateToScreen('CalculatorScreen')}>
     <Image source={require('../../assets/images/calculator.png')} style={styles.gridHomeImage} resizeMode="contain"/>
     <Text style={styles.gridHomeText}>{Strings.ST105.toUpperCase()}</Text>
     </TouchableOpacity>
     </Col>
+</Row>
 
+<Row>
+  
     <Col>
     <TouchableOpacity style={styles.gridHomeCol} onPress={this.navigateToScreen('QuotesScreen')}>
     <Image source={require('../../assets/images/quotes.png')} style={styles.gridHomeImage} resizeMode="contain"/>
     <Text style={styles.gridHomeText}>{Strings.ST5.toUpperCase()}</Text>
+    </TouchableOpacity>
+    </Col>
+
+    <Col>
+    <TouchableOpacity onPress={this.navigateToScreen('PostsScreen')} style={styles.gridHomeCol}>
+    <Image source={require('../../assets/images/blog.png')} style={styles.gridHomeImage} resizeMode="contain"/>
+    <Text style={styles.gridHomeText}>{Strings.ST4.toUpperCase()}</Text>
     </TouchableOpacity>
     </Col>
 </Row>
